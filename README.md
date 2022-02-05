@@ -1,4 +1,3 @@
-# LindaProjectV2
 #include <iostream>
 
 using namespace std;
@@ -6,7 +5,7 @@ using namespace std;
 int main() {
     // Write your main here
   double cost_merchandise; 
-double salary_employee;
+double salary_employees;
 double rent_yearly;
 double cost_electricity;
 
@@ -17,16 +16,16 @@ double total_expenses = 0;
 double markup_price, mark_percentage = 0; 
 cout << fixed;
 
-cout << “Enter the cost of the merchandise: “;
+cout << "Enter the cost of merchandise";
 cin >> cost_merchandise;
 
-cout << “Enter the salary of the employees (include yourself): “;
-cin >> salary_employee; 
+cout <<"Enter the salary of the employees (include yourself):";  
+cin >> salary_employees; 
 
-cout << “Enter the yeary rent: “;
+cout <<"Enter the yeary rent:";  
 cin >> rent_yearly;
 
-cout << “Enter the cost of electricity: “;
+cout <<"Enter the cost of electricity";
 cin >> cost_electricity; 
 
 total_expenses = cost_merchandise + salary_employees + rent_yearly + cost_electricity;
